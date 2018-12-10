@@ -6,11 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Common" />
         <module name="JavaSSMServer" />
-        <module name="JavaSSMServerParent" />
+        <module name="Manager_mapper" />
+        <module name="Manager_pojo" />
+        <module name="Manager_service" />
+        <module name="Manager_web" />
+        <module name="Redis" />
+        <module name="Rest" />
+        <module name="Search" />
+        <module name="SSO" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
       <module name="JavaSSMServer" target="1.5" />
     </bytecodeTargetLevel>
   </component>
